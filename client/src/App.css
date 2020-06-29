@@ -1,0 +1,96 @@
+h1.place-name {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+h4, h5 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.app-layout {
+  background: #F6F7FB !important;
+  height: 100vh;
+}
+
+.app-layout-content {
+  margin: 40px 20px 40px 70px;
+}
+
+.app-layout-sider {
+  background: #F6F7FB !important;
+}
+
+.app-layout-content-group {
+  background: #FFF;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+}
+
+@media only screen and (max-width: 576px) {
+  .app-layout-content {
+    margin: 20px 15px;
+  }
+
+  .app-layout-sider {
+    display: none;
+  }
+
+  .app-layout-content-group {
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .app-layout-content {
+    margin: 20px 15px;
+  }
+
+  .app-layout-sider {
+    display: none;
+  }
+
+  .app-layout-content-group {
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .app-layout-content {
+    margin: 30px 0px 30px 50px;
+  }
+
+  .app-layout-content-group {
+    padding: 20px 20px;
+  }
+}
+
+@media only screen and (mix-width: 992px) and (max-width: 1200px) {
+  .app-layout-content {
+    margin: 30x 0px 30px 50px;
+  }
+
+  .app-layout-content-group {
+    padding: 20px 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .app-layout-content {
+    margin: 40x 0px 40px 70px;
+  }
+
+  .app-layout-content-group {
+    padding: 20px 30px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .app-layout-content {
+    margin: 50x 0px 50px 80px;
+  }
+
+  .app-layout-content-group {
+    padding: 30px 40px;
+  }
+}
